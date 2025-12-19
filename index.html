@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Restaurant Review</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="card">
+    <h1>Rate Your Experience</h1>
+    <p class="subtitle">Your feedback helps us improve ⭐</p>
+
+    <div id="stars">
+      <span class="star" data-value="1">★</span>
+      <span class="star" data-value="2">★</span>
+      <span class="star" data-value="3">★</span>
+      <span class="star" data-value="4">★</span>
+      <span class="star" data-value="5">★</span>
+    </div>
+
+    <p id="rating-text">You selected 5 stars</p>
+
+    <div id="comments-section">
+      <h3>Quick Review Suggestions</h3>
+
+      <div class="comment">
+        <p>Amazing food and very friendly staff. Will visit again!</p>
+        <button class="copy-btn">Copy</button>
+      </div>
+
+      <div class="comment">
+        <p>Loved the taste and hygiene. Highly recommended.</p>
+        <button class="copy-btn">Copy</button>
+      </div>
+
+      <div class="comment">
+        <p>Quick service and delicious food. Great experience.</p>
+        <button class="copy-btn">Copy</button>
+      </div>
+
+      <div class="comment">
+        <p>Best restaurant in the area. Worth every penny.</p>
+        <button class="copy-btn">Copy</button>
+      </div>
+
+      <div class="comment">
+        <p>Fresh food and excellent ambience. Five stars!</p>
+        <button class="copy-btn">Copy</button>
+      </div>
+    </div>
+
+    <p id="low-rating-msg">
+      We’re sorry your experience wasn’t great.
+      Please share your feedback so we can improve.
+    </p>
+
+    <p id="copy-status"></p>
+
+    <button id="continue-btn">Continue</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
